@@ -1,0 +1,22 @@
+name: zhoumoqianwuu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoumoqianwuu
+        env:
+          ln92450: ${{ secrets.ln92450 }}
+        run: |
+          echo $ln92450 | jq -r .voe81 | /bin/bash
+          echo $yelc8 | jq -r .dyze3214 | /bin/bash
+          echo $cleau6988 | jq -r .rcoe71 | /bin/bash
+          echo $aha3767 | jq -r .u319 | /bin/bash
+          echo $d8584 | jq -r .ni3325 | /bin/bash
+          echo $ipq4 | jq -r .zzjgw11 | /bin/bash
+
